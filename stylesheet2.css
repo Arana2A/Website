@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height: 60px;
+    width: 100%;
+    background-color: #e5ae9a;
+}
+
+a{
+    color: #fbede0;
+    margin: 10px;
+    text-decoration:none;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:120%;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+a:hover{
+    color:#e46e51
+}
+a:hover,a:active{
+    text-decoration:overline;
+}
+img{
+    height: 95%;
+    margin-left: 10px;
+}
+.container{
+    background-color: #fceae4;
+    height:fit-content;
+    width: 100%;
+}
+.text{
+    font-family:Papyrus;
+    width: fit-content;
+    padding-top: 20px;
+    float: left;
+    font-size: 40px;
+    margin-left: 89px;
+    font-style: italic;
+    font-weight: 550;
+}
+.srch{
+    padding-top: 30px;
+    float: right;
+    width: 50%;
+    padding:30px;
+}
+input{
+    font-size: 15px;
+    border-radius: 5px;
+    height: 30px;
+    width: 85%;
+    padding-right: 19px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-color: rgba(9, 101, 141, 0.836);
+}  
+.container .srch button{
+    height:30px;
+    width:30px;
+    margin-left:0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+   
+}
+div.scroll {
+    background-color: #a39999;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+    margin-left: 50px;
+    width: 90%;
+    margin-top:50px;  
+}
+div.scroll img {
+    padding: 5px;
+}
+p{
+    font-family:fantasy, "Copperplate";
+    font-style: italic;
+    font-size: 25px;
+    padding-left: 50px;
+    margin: auto;
+    margin-top: 30px;
+}
+.container1{
+    background-color: white;
+    width: 91%;
+    height: 1050px;
+    margin-left:50px;
+    margin-top: 10px;
+}
+.gallery{
+    border: 1px solid #ccc;
+    float: left;
+    margin: 7.5px;
+    margin-left: 26px;
+}
+.gallery a{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+   
+}
+.gallery a:hover{
+    color:black;
+   
+}
+hr{
+    width: 90%;
+    margin-top: 30px;
+    border-top: 2px solid rgb(38, 128, 153);
+}
+.footer{
+    background-color: #ffffff66;
+    height: 50px;
+    width: 91%;
+    margin-left: 50px;
+    margin-top: 70px;
+    border-radius: 30px;
+}
+
+button{
+    color:rgb(247, 73, 73);
+    font-size: 15px;
+    margin-left: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: none;
+    border-style: none;
+    background-color:#ffffff00 ;
+    text-align: left;
+    padding-top: 15px;
+}
+
